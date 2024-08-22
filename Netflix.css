@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+.background {
+    height: 700px;
+    width: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/a99688ca-33c3-4099-9baa-07a2e2acb398/ca15fd28-b624-4852-8bfe-9cdd5c88475d/IN-en-20240520-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    filter: brightness(300%);
+  
+}
+#english{
+    border: 1px solid rgb(52, 50, 50); 
+    background-color:black;
+    height: 30px;
+    width: 100px;
+}
+#sign{
+    border: 1px solid red;
+    background-color: red;
+    height: 30px;
+    width: 70px;
+}
+button{
+    color: white;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    padding-left: 50px;
+}
+.right{
+    margin-right: 90px;
+    margin-top: 20px;
+    margin: 30px;
+    padding-right: 160px;
+}
+img{
+    margin-left: 80px;
+}
+#content{
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+}
+#para{
+    font-size: 25px;
+    
+}
+button{
+    color: white;
+    background-color: rgb(100, 13, 13);
+    text-decoration: none;
+}
+input{
+    color: rgb(192, 184, 184);
+    background-color: rgb(10, 10, 10);
+    
+    opacity: 0.6;
+    border: 1px solid rgb(65, 63, 63);
+    
+}
+.start{
+    display: inline;
+    height: 50px;
+    width: 200px;
+    
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#text{
+    padding-left: 10px;
+}
+#start{
+    border: 1px solid red;
+    font-size: 20px;
+    height:100 ;
+   
+}
+#text{
+    width: 400px;
+}
+.open{
+    justify-content: center;
+}
+.background2{
+    height: 550px;
+    width: auto;
+    background-color: black;
+
+}
+#img2{
+    float: right;
+    position: relative;
+    z-index: 10;
+    right: 5px;
+    margin-right: 10px;
+}
+#img21{
+   position: absolute;
+   right: 0;
+   height: 250px;
+   width: 630px; 
+   padding-top: 90px;  
+   right: 253px;
+}
+.show{
+   justify-content: right;
+}
+.second{
+    color: white;
+    padding-left: 100px;
+    width: 50%;
+}
+#secondpara_b{
+    font-size: 50px;
+}
+#secondpara_c{
+    font-size: 25px;
+}
+.background3{
+    height: 550px;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+#download{
+    font-size: 50px;
+}
+#third{
+    font-size: 25px;
+}
+.three{
+    height: auto;
+    width: 600px;
+    float: right;
+    margin-top: 170px;
+    margin-right: 80px;
+}
+.third_one{
+    padding-top: 60px;
+    
+}
+.third_two{
+    height: 100px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius:10px;
+    bottom: 140px;
+    left: 255px;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+}
+.third_three{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    right: 120px;
+}
+.background4{
+    height: 550px;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+.vdotv1{
+    margin-right: 120px;
+    margin-top: 50px;
+    position: relative;
+    float: right;
+    z-index: 10;
+}
+.vdotv{
+    position: absolute;
+    float: right;
+    right: 236px;
+    padding-top: 65px;
+    
+}
+#watch{
+    font-size: 50px;
+}
+#fourth{
+    font-size: 25px;
+}
+.four{
+    height: auto;
+    width: 600px;
+    float: left;
+    margin-top: 170px;
+    position: relative;
+    left: 150px;
+}
+.background5{
+    height: 550px;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+#fifth_zero{
+    font-size: 50px;
+}
+#fifth{
+    font-size: 25px;
+}
+.five{
+    height: auto;
+    width: 600px;
+    float: right;
+    margin-top: 170px;
+    margin-right: 80px;
+}
+.fifth_one{
+    padding-top: 60px;
+    
+}
+.background6{
+    width: auto;
+    height: 950px;
+    color: white;
+    background-color: black;
+}
+.para6{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+#parasix{
+    padding-top: 50px;
+}
+.six_one{
+    background-color: rgb(42, 41, 41);
+    height: 60px;
+    width: 1100px;
+    margin: 10px;
+    padding-left: 20px;
+    margin-left: 200px;
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+
+.end{
+    display: inline;
+    height: 50px;
+    width: 200px;
+    
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#end{
+    border: 1px solid rgb(255, 0, 0);
+    font-size: 20px;
+    height:100 ;
+    background-color: red;
+}
+#text_end{
+    width: 400px;
+    border: 2px solid gray;
+    color: rgb(255, 247, 247);
+    padding-left: 10px;
+}
+#content_end{
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+}
+#para_end{
+    font-size: 25px;
+    padding-left: 400px;
+}
+.background7{
+    height: 400px;
+    width: auto;
+    background-color: black;
+    text-decoration: none;
+}
+.seven{
+    color: rgb(164, 163, 163);
+   
+}
+#last_english{
+    height: 10px;
+    width: 40px;
+}
+.seven_zero{
+    margin-left: 200px;
+    padding-top: 70px;
+    position: absolute;
+}
+.seven{
+    color: rgb(164, 163, 163);
+   
+}
+.seven_one{
+    position: relative;
+    margin-left: 500px;
+    padding-top: 111px;
+    width: 150px;
+    position: absolute;
+}
+.seven_two{
+    position: absolute;
+    margin-left: 750px;
+    padding-top: 111px;
+}
+.seven_three{
+    position: absolute;
+    margin-left: 1000px;
+    padding-top: 111px;
+}
